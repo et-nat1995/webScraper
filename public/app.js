@@ -10,7 +10,6 @@ $(".save").on("click", function (event) {
         method: "POST"
     }).then(function (data) {
         console.log(data);
-        location.reload();
     });
 });
 
