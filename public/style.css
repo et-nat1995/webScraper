@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image: url("./images/nature-old-paper-texture-or-background-video-animation_sacheeom__F0000.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.card-header{
+    background: #2196f3;
+}
+
+.article-link{
+    color: white;
+}
+
+.article-link:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.save, .delete, .note {
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    color: white !important;
+}
+.note{
+    right: 110px;
+}
+
+.jumbotron{
+    height: 500px;
+    width: 100%;
+    font-family: "Cormorant SC";
+    color: white;
+    background-image: url("./images/cd9bfb2c29514b781b3accc6553eee5f.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: 10px 5px 20px 2px lightslategrey;
+}
+
+.caption{
+    margin-top: 150px;
+}
+
+.navbar{
+    height: 70px;
+}
+
+#mongoScraper{
+    font-size: 65px;
+}
+
+#edition{
+    font-size: 35px;
+}
